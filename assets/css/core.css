@@ -1,0 +1,16 @@
+/* Importing Theme Main CSS Loading */
+
+@import url(style.css);
+@import url(responsive.css);
+
+/* Importing Vendor */
+
+@import url(../vendor/vendor.css);
+
+/* Flat Icon */
+
+@import url(../font/flaticon.css);
+
+/* Web Font - Segoe */
+
+@import url(../segoe-ui-4-cufonfonts-webfont/style.css);
