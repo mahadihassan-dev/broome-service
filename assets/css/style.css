@@ -738,7 +738,11 @@ ul.footer-nav li a:hover {
 
 .footer-main {
     background: #db4128;
-    padding: 50px 0px;
+    padding: 80px 0px 30px 0px;
+}
+
+.footer_about_detail {
+    padding: 35px 0px;
 }
 
 
@@ -1611,11 +1615,49 @@ span.reprt-confirm-icon {
 
 /* Registration Page Start */
 
-.user_registration {
-    height: 715px;
-    background: url(../img/broome-reg-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.new_user_reg_option {
+    margin-bottom: 0;
+}
+
+.new_reg_user_btn {
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    background: #0056b3;
+    border-radius: 5px;
+}
+
+.new_reg_user_btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.new_user_regOption:nth-child(2) {
+    margin-left: 25px;
+}
+
+.new_user_regOption:nth-child(2) a {
+    /* background: #FA7901 !important; */
+    background: #439d4a !important;
+}
+
+.new_user_reg_option_box {
+    background: #f2f2f2;
+    width: 500px;
+    margin: auto;
+    padding: 30px 15px;
+    border-radius: 5px;
+}
+
+.reg_form_container {
+    width: 850px;
+    margin: auto;
+    background: #f2f2f2;
+    padding: 55px 45px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    border: 0.5px solid #2222221a;
 }
 
 
