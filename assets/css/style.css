@@ -136,6 +136,14 @@ main {
     transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .3s;
 }
 
+.menu ul li a {
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.menu ul li:hover a {
+    color: #db4128;
+}
+
 .menu ul li ul li a:hover {
     background-color: #FBFBFB;
     color: #DB4128 !important;
@@ -1653,11 +1661,30 @@ span.reprt-confirm-icon {
 .reg_form_container {
     width: 850px;
     margin: auto;
-    background: #f2f2f2;
+    background: #f2f2f24f;
     padding: 55px 45px;
     margin-bottom: 60px;
     border-radius: 5px;
     border: 0.5px solid #2222221a;
+}
+
+.login_form_container {
+    width: 450px;
+    margin: auto;
+    background: #f2f2f24f;
+    padding: 55px 45px;
+    margin-bottom: 60px;
+    border-radius: 5px;
+    border: 0.5px solid #2222221a;
+}
+
+.brRegForm.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #c53d2824;
+    outline: 0;
+    /* box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
+    box-shadow: 0 0 0 0.2rem #db402841;
 }
 
 
